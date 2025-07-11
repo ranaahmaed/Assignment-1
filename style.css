@@ -78,3 +78,50 @@ body, html {
     margin-bottom: 20px;
     color: black;
 }
+.action-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 20px;
+    background-color: #f9f9f9;
+    gap: 40px; /* space between text and image */
+    flex-wrap: wrap; /* responsive */
+}
+
+.action-text,
+.section-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+.section-heading {
+    color: rgb(37, 36, 50);
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.section-description {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #555;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+
+.section-image img {
+    border-radius: 50px /* Makes the image rounded */
+}
+
+
