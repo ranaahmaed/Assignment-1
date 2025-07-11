@@ -285,4 +285,44 @@ text-align: left;
 }
 
 
+.footer {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  color: #4E47FF;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4E47FF;
+}
+
+
 
